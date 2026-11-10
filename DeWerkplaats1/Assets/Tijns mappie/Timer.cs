@@ -3,8 +3,8 @@ using TMPro;
 
 public class CountdownTimer : MonoBehaviour
 {
-    public float timeLeft = 60f;          // Start time in seconds
-    public TextMeshProUGUI timerText;    // Drag your text here
+    public float timeLeft = 60f;          
+    public TextMeshProUGUI timerText;    
 
     void Update()
     {
@@ -21,7 +21,7 @@ public class CountdownTimer : MonoBehaviour
         {
             timerText.text = "00:00";
             Debug.Log("Time's up!");
-            enabled = false; // stops the script
+            enabled = false; 
         }
     }
 }
