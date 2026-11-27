@@ -5,12 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
-  - enabled: 1
-    path: Assets/_Project/Scenes/Testing/R_Test_Scene.unity
-    guid: 0884b778ee59fb940ac27c6fcec0d6dc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
@@ -18,5 +15,5 @@ EditorBuildSettings:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: a49cadc1a815591479693b955ccf08c1, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 985fdffee33a5944396199c6b7145dd4, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 39616d911e22eb14aaf1852b5fcba814, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 3341e5087013b24418107ced149c2c16, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e457288b39b1fb848acb833d86c9f22a, type: 2}
   m_UseUCBPForAssetBundles: 0
